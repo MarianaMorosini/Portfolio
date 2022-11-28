@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen";
+    margin: 0;
+    color: white;
+}
+
+header{
+    margin-top: -3%;
+}
+
+body {
+    background-color: #000;
+    background-size: auto;
+}
+
+.container {
+    margin: 2em;
+    padding: 4em;
+    justify-content: center;
+}
+
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    font-weight: bold;
+}
+
+.info div{
+    padding: 6px;
+}
+
+.title {
+    color: #7a297a;
+    font-family: "Oxygen";
+    padding: 0.5em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.nav-link{
+    padding: 1em;
+}
+
+div {
+    display: block;
+}
+
+#skills{
+    margin: 0;
+    background-color: black;
+}
+
+.texto{
+    color: #7a297a;
+}
+
+
+b{
+    color: #7a297a;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: '';
+    background:#7a297a;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: large;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: #000000;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #7a297a;
+    left: 23px;
+    width: 10px;
+    height: 10px;
+    z-index: 400;
+}
+
+ul.timeline li p {
+    padding: 10px;
+}
+
+footer{
+    background-color: #000;
+    min-height: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.botoes{
+    color: #7a297a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.6em;
+    width: 100%;
+}
+
+.botoes li {
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    display: inline;
+    padding: 1em;
+    margin: 0px 30px;
+    color: #7a297a;
+    background-color: rgb(18, 27, 27);
+    border-radius: 12px;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+a:link { text-decoration: none; }
